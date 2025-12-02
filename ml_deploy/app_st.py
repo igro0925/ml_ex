@@ -16,6 +16,7 @@ def load_model():
     with open(model_path, 'rb') as f:
         model = pickle.load(f)
     return model
+
 model = load_model()
 
 # 클래스별 이미지 경로 설정
